@@ -3,6 +3,12 @@
     padding:0;
     margin:0;
 }
+
+.fa-solid {
+    color: #404040;
+}
+
+
 .white{
     background-image: linear-gradient(to right, #ffffff , #989898a8);
     display: flex;
@@ -33,17 +39,41 @@ h4{
 }
 
 button{
+    background:  rgb(54, 55, 55);
     width: 300px;
     height:70px;
-    background-color: rgb(54, 55, 55);
     color: #ffffff;
-    font-weight: 400;
-    font-size: larger;
     border: none;
     border-radius: 30px;
-    margin-top: 20px;
-    
+    margin-top: 280px;
 }
+
+
+.downloadResume {
+    background:  rgb(54, 55, 55);
+    font-weight: 400;
+    font-size: large;
+    color: #FFF;
+    margin-top:10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadResume > a {
+    margin-left: 10px;
+}
+
+.downloadResume > a > i {
+    color: #FFF;
+}
+
+
+
+
 
 .brown{
     display: flex;
